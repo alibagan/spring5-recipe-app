@@ -8,6 +8,8 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 
+
+
 	<name>spring5-recipe-app</name>
 	<description>Recipe Application</description>
 
@@ -68,6 +70,7 @@
 		</plugins>
 	</build>
 
+
 	<repositories>
 		<repository>
 			<id>spring-snapshots</id>
@@ -86,9 +89,7 @@
 			</snapshots>
 		</repository>
 	</repositories>
-	<build>
-		<finalName>java-web-project</finalName>
-	</build>
+
 
 	<pluginRepositories>
 		<pluginRepository>
