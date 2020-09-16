@@ -14,7 +14,7 @@ pipeline{
                         path: '',
                         url: 'http://ec2-15-237-56-246.eu-west-3.compute.amazonaws.com:8080/')
                     ],
-                    contextPath: 'javawebapp2',
+                    contextPath: 'spring5-recipe-app-0.0.1-SNAPSHOT',
                     war: 'target/*.war'
             }
         }
